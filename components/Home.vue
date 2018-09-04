@@ -6,8 +6,8 @@
           v-on:enlarge-text="postFontSize +=$event"
           :key="article_lists.id"
     ></News>-->
-    <!--<v-model :val="val" @input="val = $event"></v-model>
-    <p>{{val}}</p>-->
+    <v-model :val="val" @input="val = $event"></v-model>
+    <!--<p>{{val}}</p>-->
   </div>
 </template>
 

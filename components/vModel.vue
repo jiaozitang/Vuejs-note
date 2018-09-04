@@ -1,5 +1,8 @@
 <template>
+  <div>
     <input :value="val" @input="$emit('input',$event.target.value)"/>
+    <Quanju></Quanju>
+  </div>
 </template>
 
 <script>
